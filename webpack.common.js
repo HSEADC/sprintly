@@ -144,6 +144,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/books/books.html',
       filename: './books/books.html'
+    }),
+
+    //Заглушка
+    new HtmlWebpackPlugin({
+      template: './src/present.html',
+      filename: './present.html'
     })
 
     // Article
