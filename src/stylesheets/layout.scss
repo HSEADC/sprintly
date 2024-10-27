@@ -10,6 +10,15 @@ img {
     height: auto;
 }
 
+h1,
+h2,
+h3,
+p {
+ font-family: 'RockStar';
+}
+
+
+
 body.present {
     width: 100vw;
     height: 100vh;
@@ -114,8 +123,8 @@ body.present {
 
 body.index {
     width: 100vw;
-    height: 100vh;
-    background-image: url(/src/images/background_2.jpg);
+    height: 200vh;
+    background-image: url(/src/images/background_5.jpg);
     background-size: cover;
     h1 {
             font-family: 'RockStar';
@@ -127,10 +136,11 @@ body.index {
         .up_part {
             padding: 5vh 5vw;
             display: flex;
+            margin-bottom: 30vh;
         }
     
         .line_h1 {
-            width: 53vw;
+            width: 49vw;
             height: 0.2vh;
             margin: 2.5vh;
             background-color: #FFF718;
@@ -150,10 +160,64 @@ body.index {
             display: flex;
             justify-content: space-between;
             letter-spacing: 2px;
-            margin: 10vh 15vw;
-     }
-         .up_part_a {
-             text-decoration: none;
-         }
+            margin: 8vh 15vw;
+    }
+    .up_part_a {
+        text-decoration: none;
+    }
+    .what_agile {
+        margin-top: 25vh;
+        padding: 5vh 2vw 2vh 5vw;
+    }
+    .what_agile_inside {
+        border: #FFF718 solid 0.2vh;
+        padding: 5vh 5vw;
+        margin: 2vh 5vw;
+        border-radius: 1.4vw;
+        
+        p {
+            font-family: 'RockStar';
+            font-weight: 300;
+            color: #FFF718;
+            font-size: 1.43vw;
+        }
+    } 
+    .cards {
+        width: 90vw;
+        height: 30vh;
+        margin: 15vh 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .one_card {
+        width: 20vw;
+        height: 20vw;
+        border: 0.2vh #FFF718 solid;
+        border-radius: 2vw;
+        a {
+            text-decoration: none;
+            color: #FFF718;
+        }
+        h2 {
+            text-align: left;
+            padding: 3vh;
+        }
+    }
+    .one_card:hover {
+        backdrop-filter: blur(20px);
+        background-color: rgba(255, 247, 24, 0.1);
+        transition: 0.5s;
+    }
+    .flex {
+        display: flex;
+        .line_h1 {
+            margin: 32.5vh 0 0 0 ;
+            width: 55vw;
+        }
+    }
+    .down_part {
+        width: 100vw;
+    }
 }
 
