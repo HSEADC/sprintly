@@ -5,10 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-img {
-    width: 50vw;
-    height: auto;
-}
+
 
 h1,
 h2,
@@ -185,7 +182,7 @@ body.index {
     .cards {
         width: 90vw;
         height: 30vh;
-        margin: 15vh 5vw;
+        margin: 15vh 5vw 10vh 5vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -217,7 +214,16 @@ body.index {
         }
     }
     .down_part {
-        width: 100vw;
+        width: 90vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5vw;
+        a {
+            color: #FFF718;
+        }
     }
+
+    
 }
 
