@@ -120,7 +120,7 @@ body.present {
 
 body.index {
     width: 100vw;
-    height: 200vh;
+    height: 220vh;
     background-image: url(/src/images/background_5.jpg);
     background-size: cover;
     h1 {
@@ -218,9 +218,18 @@ body.index {
         height: 10vh;
         display: flex;
         justify-content: space-between;
+        border: 0.2vh solid #FFF718;
+        border-style: solid hidden hidden  hidden;
+        padding-top: 5vh;
         margin: 0 5vw;
         a {
             color: #FFF718;
+        }
+        .social {
+            text-align: right;
+        }
+        h3 {
+            margin: 2vh 0;
         }
     }
 
