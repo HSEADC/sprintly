@@ -19,7 +19,7 @@ p {
 body.present {
     width: 100vw;
     height: 100vh;
-    background-image: url(/src/images/background_2.jpg);
+    background-image: url(/src/images/background_2.webp);
     background-size: cover;
 
     h1 {
@@ -121,7 +121,7 @@ body.present {
 body.index {
     width: 100vw;
     height: 220vh;
-    background-image: url(/src/images/background_5.jpg);
+    background-image: url(/src/images/background_5.webp);
     background-size: cover;
     h1 {
             font-family: 'RockStar';
@@ -142,7 +142,7 @@ body.index {
             margin: 2.5vh;
             background-color: #FFF718;
         }
-        h2 {
+    h2 {
         font-family: 'RockStar';
         font-size: 1.5vw;
         font-weight: 300;
@@ -167,7 +167,7 @@ body.index {
         padding: 5vh 2vw 2vh 5vw;
     }
     .what_agile_inside {
-        border: #FFF718 solid 0.2vh;
+        border: #FFFFFF solid 0.2vh;
         padding: 5vh 5vw;
         margin: 2vh 5vw;
         border-radius: 1.4vw;
@@ -175,7 +175,7 @@ body.index {
         p {
             font-family: 'RockStar';
             font-weight: 300;
-            color: #FFF718;
+            color: #FFFFFF;
             font-size: 1.43vw;
         }
     } 
@@ -190,11 +190,11 @@ body.index {
     .one_card {
         width: 20vw;
         height: 20vw;
-        border: 0.2vh #FFF718 solid;
+        border: 0.2vh #FFFFFF solid;
         border-radius: 2vw;
         a {
             text-decoration: none;
-            color: #FFF718;
+            color: #FFFFFF;
         }
         h2 {
             text-align: left;
