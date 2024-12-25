@@ -4,3 +4,5 @@
 @import 'stylesheets/layout.scss';
 @import 'stylesheets/main.scss';
 @import 'stylesheets/animation.scss';
+@import 'stylesheets/style_guide.scss';
+@import 'stylesheets/adaptive.scss';

@@ -67,10 +67,10 @@ module.exports = {
         type: 'asset/source'
       },
       {
-        test: /\.png/,
+        test: /\.(png|jpe?g|gif|webp|svg)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[hash][ext][query]'
+          filename: 'images/[name][hash][ext]'
         }
       },
       {
@@ -81,10 +81,10 @@ module.exports = {
         }
       },
       {
-        test: /\.(ttf|otf)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]'
         }
       }
     ]
@@ -150,6 +150,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/present.html',
       filename: './present.html'
+    }),
+
+    // Стайлгайд
+    new HtmlWebpackPlugin({
+      template: './src/style_guide.html',
+      filename: './style_guide.html'
     })
 
     // Article

@@ -1,0 +1,155 @@
+@media all and (max-device-width: 480px) {
+    html,
+    body {
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .style_guide {
+        p,
+        a {
+        font-size: 4vw;
+        letter-spacing: -1px;
+        }
+        h2 {
+            font-size: 5vw;
+            filter: blur(0.8px);
+            letter-spacing: -1px;
+        }
+        h3 {
+            font-size: 5vw;
+            font-weight: 800;
+            filter: blur(0.8px);
+            letter-spacing: -1px;
+        }
+        .main {
+            font-size: 5vw;
+            filter: blur(0.8px);
+        }
+        .header {
+            display: inline;
+            position: absolute;
+            padding: 4vh 0 0 0;
+        }
+        header {
+            top: 5vh;
+            div {
+                img {
+                    visibility: hidden;
+                }
+            }
+        }
+        .using_logo {
+            width: 80vw;
+            height: fit-content;
+        }
+        .ellipse {
+            width: 2.5vh;
+            height: 2.5vh;
+            margin-top: 0;
+        }
+        .sprintly {
+            width: 24vw;
+            height: fit-content;
+            padding-top: 0.8vh;
+        }
+        #start_screen {
+            .center {
+                margin: 45vh 0 0 27vw;
+                display: flex;
+                gap: 2vw;
+                .ellipse {
+                        margin-top: 1.2vh;
+                    }
+            }
+            p {
+                padding-top: 0.5vh;
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                margin: 9vh 4vw 5vh 2vw;
+                text-align: right;
+                justify-content: space-between;
+            }
+        }
+
+        #center_screen_style {
+            margin: 7vh 4vw 0 20vw;
+            p {
+                    margin: 3vh 0 0 0;
+                }
+            p.text {
+                margin: 0.5vh 0 0.5vh 0;
+            }
+            #who,
+            #about {
+                margin: 7vh 0 3vh 0;
+            }
+            h1 {
+                font-size: 7vw;
+                filter: blur(1px);
+                font-weight: 800;
+                letter-spacing: -2px;
+                line-height: 30px;
+                padding: 3vh 4vw 0 20vw;
+            }
+        }
+
+        #down_screen_style {
+            margin: 7vh 4vw 10vh 20vw;
+            p {
+                    margin: 3vh 0 0 0;
+                }
+            p.numbers {
+                    text-align: center;
+                    margin-left: 0;
+            }
+            .bad_logo {
+                width: 70vw;
+                height: fit-content;
+            }
+            #a3,
+            .a3 {
+                margin: 7vh 0 3vh 0;
+            }
+            h4,
+            h5 {
+                letter-spacing: -3px;
+            }
+            .alphabet1 {
+                width: 45vw;
+                margin: 3vh 0 3vh 0;
+                filter: blur(0.8px);
+                line-height: 2vh;
+            }
+            .alphabet2 {
+                width: 45vw;
+                margin: 3vh 0 3vh 0;
+                line-height: 2vh;
+            }
+            h6 {
+                font-size: 3vw;
+                letter-spacing: -1px;
+                right: 4vw;
+                margin-top: 1.8vh;
+            }
+            .photo_grid,
+            .photos,
+            .photo_grid3,
+            .graphic_3 {
+                width: 40vw;
+                height: fit-content;
+            }
+            .photo_grid2 {
+                width: 20vw;
+                height: fit-content;
+            }
+        }
+
+        .focus {
+            width: 100vw;
+            height: fit-content;
+        }
+    }
+}

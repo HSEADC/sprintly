@@ -3,7 +3,254 @@
 }
 body {
     width: 100vw;
-    height: 220vh;
-    background-image: url(/src/images/background_5.webp);
-    background-size: cover;
+    height: auto;
+    background-color: #040404;
+}
+.style_guide {
+    p,
+    a {
+    width: auto;
+    font-family: 'Mont';
+    font-weight: 600;
+    font-size: 1.5vw;
+    letter-spacing: -2px;
+    text-decoration: none;
+    }
+    color: white;
+    h2 {
+        font-family: 'Code Next';
+        font-weight: 800;
+        font-size: 3.5vw;
+        filter: blur(2px);
+        letter-spacing: -2px;
+    }
+    h3 {
+        font-family: 'Code Next';
+        font-size: 1.5vw;
+        font-weight: 800;
+        filter: blur(1px);
+        letter-spacing: -1px;
+    }
+    .main {
+        font-family: 'Code Next';
+        font-size: 1.5vw;
+        filter: blur(1px);
+        font-weight: 800;
+        letter-spacing: -1px;
+        text-decoration: none;
+        color: white;
+    }
+        .display {
+            display: flex;
+        }
+    
+        .display_column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+    
+            div {
+                position: absolute;
+    
+                img {
+                    height: 100vh;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    
+        .header {
+            padding: 40vh 0 0 0;
+            margin: 0 0 0 4vw;
+            display: flex;
+            flex-direction: column;
+            gap: 4vh;
+    
+            a {
+                color: white;
+                font-weight: 600;
+            }
+    
+        }
+    
+        #start_screen {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(../images/sprintly.gif);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    
+            .center {
+                margin: 45vh 15vw 0 40vw;
+                display: flex;
+                gap: 2vw;
+            }
+    
+            .right {
+                display: flex;
+                flex-direction: column;
+                margin: 5vh 4vw 5vh 10vw;
+                text-align: right;
+                justify-content: space-between;
+            }
+    
+            p {
+                padding-top: 2.1vh;
+            }
+        }
+    
+        .ellipse {
+            width: 4.5vh;
+            height: 4.5vh;
+            margin-top: 1.2vh;
+        }
+    
+        .sprintly {
+            width: 10vw;
+            height: fit-content;
+            padding-top: 0.8vh;
+        }
+    
+    
+        #center_screen_style {
+            margin: 10vh 4vw 0 20vw;
+    
+            p {
+                margin: 5vh 0 0 0;
+            }
+    
+            p.text {
+                margin: 2vh 0 2vh 0;
+            }
+    
+            #a1 {
+                margin-left: 2vw;
+            }
+    
+            #who {
+                margin: 10vh 0 5vh 0;
+            }
+    
+            #about {
+                margin: 10vh 0 5vh 0;
+            }
+    
+            h1 {
+                font-family: 'Code Next';
+                font-size: 5vw;
+                filter: blur(2px);
+                font-weight: 800;
+                letter-spacing: -2px;
+                line-height: 60px;
+                padding: 5vh 14vw 0 20vw;
+            }
+        }
+        .motivation {
+            margin: 5vh 0 5vh 0;
+            width: 100vw;
+            height: auto;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        #down_screen_style {
+            margin: 10vh 4vw 10vh 20vw;
+
+            #a2 {
+                    margin-left: 2vw;
+                }
+
+            p {
+                margin: 5vh 0 0 0;
+            }
+            .using_logo {
+                width:70%;
+                height: auto;
+                margin: 5vh 0 5vh 20vw;
+            }
+            p.numbers {
+                text-align: center;
+                margin-left: 16vw;
+            }
+            .description {
+                margin-left: 16vw;
+            }
+            .bad_logo {
+                margin: 5vh 0 0 0;
+            }
+
+            #a3 {
+                margin: 10vh 0 5vh 0;
+            }
+            .colors {
+                width: 100%;
+                height: auto;
+            }
+            .a3 {
+                margin: 10vh 0 5vh 0;
+            }
+            h4 {
+                font-family: 'Code Next';
+                font-size: 7vw;
+                font-weight: 400;
+                letter-spacing: -10px;
+            }
+            h5 {
+                font-family: 'Mont';
+                font-size: 7vw;
+                font-weight: 600;
+                letter-spacing: -10px;
+            }
+            .alphabet1 {
+                width: 28vw;
+                margin: 5vh 0 5vh 0;
+                font-family: 'Code Next';
+                font-weight: 800;
+                filter: blur(1px);
+                letter-spacing: 0;
+                line-height: 4vh;
+            }
+            .alphabet2 {
+                width: 28vw;
+                margin: 5vh 0 0 0;
+                font-family: 'Mont';
+                font-weight: 600;
+                letter-spacing: 0;
+                line-height: 4vh;
+            }
+            h6 {
+                font-family: 'Mont';
+                font-weight: 600;
+                font-size: 1.5vw;
+                letter-spacing: -2px;
+                position: absolute;
+                right: 8vw;
+                margin-top: 4vh;
+            }
+            .photo_grid {
+                margin-right: 7vw;
+            }
+            .grid_descr {
+                margin-left: 20vw;
+            }
+            .graphic_3 {
+                margin-top: 5vh;
+            }
+        
+        }
 }
