@@ -1,0 +1,51 @@
+.O_MainAbout {
+  background: url('../images/background_7.webp') center/1310px 450px no-repeat;
+  background-position: 50% 83%;
+}
+
+.O_MainAboutPlatform2 {
+  background: url('../images/фон_-2-_1_.webp') 614px 1300px no-repeat;
+  background-position: 50% 100%;
+}
+
+.O_MainFooter {
+  background: url('../images/focus.webp') 1307px 594px no-repeat;
+  background-position: 50% 90%;
+}
+
+.O_MainFooter {
+  padding: 4em 2em;
+}
+
+.O_MainAboutPlatform {
+  display: flex;
+  padding: 2em;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin-bottom: 7em;
+}
+
+.O_MainHeader {
+  display: flex;
+  gap: 2em;
+  justify-content: flex-end;
+  margin: 0em 4em 1em;
+  font-size: 20px;
+  align-items: center;
+}
+
+.O_MainFirstPage {
+  color: white;
+}
+
+.O_MainAboutPlatform2 {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 6em;
+}
+
+.O_MainAbout {
+  position: relative;
+}

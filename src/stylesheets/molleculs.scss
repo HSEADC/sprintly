@@ -1,0 +1,117 @@
+.M_MainFooterNavAndArrow {
+  display: flex;
+  gap: 3em;
+  font-size: 25px;
+}
+
+.M_MainFooterAbout {
+  font-size: 20px;
+  display: flex;
+  gap: 4em;
+  flex-direction: column;
+}
+
+.M_MainFooterNavAndNet {
+  display: flex;
+  gap: 45em;
+  margin-bottom: 10em;
+}
+
+.M_LogoAndNet {
+  display: flex;
+  gap: 40em;
+}
+
+.M_CardAboutFirstSprint {
+  height: 514px;
+  margin-right: 1em;
+}
+
+.M_CardAboutFirstSprint2 {
+  height: 432px;
+  margin-right: 0em;
+  position: relative;
+  height: 432px;
+}
+
+.M_CardsAboutPlatform {
+  display: flex;
+  align-items: end;
+  align-content: space-between;
+}
+
+.M_HeaderAndCircle {
+  position: relative;
+  padding: 30px;
+  width: 500px;
+  margin-bottom: 11.7em;
+}
+
+.M_HeaderAndCircle2 {
+  width: 436px;
+  margin-top: 17em;
+  margin-bottom: 9em;
+}
+
+.M_CardsSquareSmalltext {
+  position: relative;
+  margin-right: 1em;
+}
+
+.M_CardsSquareHeader {
+  margin-left: 14.2em;
+}
+
+.M_CardsRectangle {
+  position: relative;
+}
+
+.M_CardsRectangle2 {
+  margin-bottom: 20px;
+}
+
+.M_CardText {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.M_CardText2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.M_textAndLogo {
+  margin-top: 25.1em;
+  margin-left: 31em;
+}
+
+.M_CardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.M_lines {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 4px;
+  padding: 0em 2.5em;
+}
+
+.M_linkToAgile {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 25%;
+  right: 9%;
+  align-items: center;
+}
+
+.M_AboutAgile {
+  display: flex;
+  flex-direction: column;
+  gap: 256px;
+  padding: 0em 4em 10em;
+}

@@ -1,0 +1,121 @@
+.S_Container {
+  background: url('../images/sprintly.gif') top/1310px 718px no-repeat;
+  padding-top: 4em;
+  background-position: 50% 0%;
+}
+
+.S_container {
+  width: 100vw;
+  height: 220vh;
+  background-size: cover;
+  background-image: url('../images/sprintly.gif');
+  h1 {
+    font-family: 'Helvetica Regular';
+    font-size: 3vw;
+    font-weight: 300;
+    color: #fff718;
+  }
+
+  .up_part {
+    padding: 5vh 5vw;
+    display: flex;
+    margin-bottom: 30vh;
+  }
+
+  .line_h1 {
+    width: 49vw;
+    height: 0.2vh;
+    margin: 2.5vh;
+    background-color: #fff718;
+  }
+  h2 {
+    font-family: 'Helvetica Bold';
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #fff718;
+    text-align: center;
+  }
+  .side_text {
+    font-family: 'Helvetica Regular';
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #fff718;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    margin: 8vh 15vw;
+  }
+  .up_part_a {
+    text-decoration: none;
+  }
+  .what_agile {
+    margin-top: 25vh;
+    padding: 5vh 2vw 2vh 5vw;
+  }
+  .what_agile_inside {
+    border: #ffffff solid 0.2vh;
+    padding: 5vh 5vw;
+    margin: 2vh 5vw;
+    border-radius: 1.4vw;
+
+    p {
+      font-family: 'Helvetica Regular';
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 1.43vw;
+    }
+  }
+  .cards {
+    width: 90vw;
+    height: 30vh;
+    margin: 15vh 5vw 10vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .one_card {
+    width: 20vw;
+    height: 20vw;
+    border: 0.2vh #ffffff solid;
+    border-radius: 2vw;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    h2 {
+      text-align: left;
+      padding: 3vh;
+    }
+  }
+  .one_card:hover {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 247, 24, 0.1);
+    transition: 0.5s;
+  }
+  .flex {
+    display: flex;
+    .line_h1 {
+      margin: 32.5vh 0 0 0;
+      width: 55vw;
+    }
+  }
+  .down_part {
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border: 0.2vh solid #fff718;
+    border-style: solid hidden hidden hidden;
+    padding-top: 5vh;
+    margin: 0 5vw;
+    a {
+      color: #fff718;
+    }
+    .social {
+      text-align: right;
+    }
+    h3 {
+      margin: 2vh 0;
+    }
+  }
+}
