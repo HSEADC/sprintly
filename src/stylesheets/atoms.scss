@@ -24,6 +24,11 @@
   position: absolute;
   top: 2.5em;
   left: 2.5em;
+  font-family: 'Helvetica Thin';
+}
+
+.A_TypographyParagraph2 {
+  font-family: 'Helvetica Bold';
 }
 
 .A_TypographyLogo {
@@ -70,6 +75,7 @@
   font-size: 175px;
   font-weight: 600;
   margin-bottom: 1em;
+  filter: blur(4.4px);
 }
 
 .A_TypographyHeader1 {
@@ -79,17 +85,20 @@
 .A_TypographyHeader2 {
   font-size: 45px;
   max-width: 550px;
+  filter: blur(1px);
 }
 
 .A_TypographyHeader5 {
   font-family: 'Helvetica Bold';
   letter-spacing: -5px;
   font-size: 80px;
+  filter: blur(1.5px);
 }
 
 .A_TypographyHeader4 {
   font-size: 20px;
   max-width: 470px;
+  font-family: 'Helvetica Thin';
 }
 
 .A_allAboutAgile {
@@ -100,4 +109,5 @@
   margin-right: 133px;
   font-family: 'Helvetica Bold';
   letter-spacing: -10px;
+  filter: blur(2.5px);
 }
