@@ -116,3 +116,76 @@
   gap: 256px;
   padding: 0em 4em 10em;
 }
+
+.M_BackdroundWhatIsAgile {
+  background: url('../images/backgroundWhatIsAgile.webp') 1179px 707px no-repeat;
+  background-position: 50% 50%;
+  height: 707px;
+}
+
+.M_CirclesRealizationAgile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4%;
+  position: relative;
+  bottom: -19%;
+}
+
+.M_LogoAndCircle {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 4em;
+}
+
+.M_GraphicsAgileLife2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7em;
+}
+
+.M_AgileWhatIs {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 755px;
+  gap: 18%;
+}
+
+.M_FlexibleText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10em;
+}
+
+.M_FlexibleTextDown {
+  position: absolute;
+  right: 27%;
+  margin-bottom: 30px;
+  width: 512px;
+}
+
+.M_OriginParagraphs {
+  display: flex;
+  gap: 9em;
+  margin-left: 159px;
+}
+
+.M_OriginParagraphs2 {
+  display: flex;
+  gap: 2em;
+  margin-left: 227px;
+}
+
+.M_ChoosingDurationText {
+  display: flex;
+}
+
+.M_Squares {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

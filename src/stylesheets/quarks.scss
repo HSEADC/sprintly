@@ -93,3 +93,42 @@
 .Q_SquareMedium2 {
   position: absolute;
 }
+
+.Q_FirstSprintText {
+  background: url('../images/MaskFirstSprintText.webp') no-repeat;
+  background-position: 50% 93%;
+  height: 281px;
+}
+
+.Q_CircleBig2 {
+  width: 464px;
+  height: 464px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  right: -8.5%;
+}
+
+.Q_LineStraight {
+  width: 1px;
+  height: 806px;
+  background-color: white;
+}
+
+.Q_GlassCircle1 {
+  position: relative;
+  right: -14.5%;
+}
+
+.Q_CircleBig3 {
+  position: absolute;
+  top: 21%;
+}
+
+.Q_SquareMedium22 {
+  width: 327px;
+  height: 327px;
+  border: 1px solid white;
+  padding: 1em;
+}

@@ -49,3 +49,56 @@
 .O_MainAbout {
   position: relative;
 }
+
+.O_FlexiblePrinciples {
+  background: url('../images/backgroundAgile2.webp') 1299px 806px no-repeat;
+  background-position: 50% 50%;
+  height: 806px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 57%;
+  margin-bottom: 6em;
+}
+
+.O_RealizationAgile {
+  background: url('../images/Q_BackgroundCircle1.webp') no-repeat;
+  background-position: 100% 50%;
+  height: 1233px;
+  margin-top: 26em;
+  position: relative;
+  margin-top: 25em;
+  margin-bottom: 11em;
+}
+
+.O_OriginOfAgile {
+  margin-bottom: 11em;
+  position: relative;
+}
+
+.O_FirstSprint {
+  background: url('../images/backgroundFirstSprint.webp') no-repeat;
+  background-position: 50% 0%;
+  margin-bottom: 4em;
+  padding: 5em 6em;
+}
+
+.O_ChoosingDuration {
+  padding: 5em 2em 1em 0em;
+  background: url('../images/backgroundChoosingDuration\ {.webp') no-repeat;
+  background-position: 50% 93%;
+  height: 808px;
+}
+
+.O_MainAboutAgile {
+  margin: 0em 3em 1em;
+  display: flex;
+  gap: 2em;
+  justify-content: flex-end;
+  font-size: 20px;
+  align-items: center;
+}
+
+.O_AboutAgile1 {
+  margin-bottom: 2em;
+}
