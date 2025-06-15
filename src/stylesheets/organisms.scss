@@ -13,6 +13,31 @@
   background-position: 50% 90%;
 }
 
+.O_BalanceWheel {
+  background: url('../images/background_7.webp') center/1410px 350px no-repeat;
+  background-position: 50% 120%;
+  height: 1100px;
+  padding-top: 5em;
+  background-size: 100% auto;
+}
+
+.O_FormGoals {
+  background: url('../images/M_BackgroundCircles.webp') center/1166px 578px no-repeat;
+  height: 1100px;
+  padding: 4em 3em 3em 0em;
+  background-size: 100% auto;
+  margin-bottom: 5em;
+}
+
+.O_Breakdown {
+  background: url('../images/Q_BackgroungGraphic1.webp') center/1166px 578px no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 5em;
+  height: 2450px;
+}
+
+
+
 .O_MainFooter {
   padding: 4em 2em;
 }
@@ -59,6 +84,7 @@
   margin: 0 auto;
   gap: 57%;
   margin-bottom: 6em;
+  background-size: 100% auto;
 }
 
 .O_RealizationAgile {
@@ -68,7 +94,7 @@
   margin-top: 26em;
   position: relative;
   margin-top: 25em;
-  margin-bottom: 11em;
+  margin-bottom: -11em;
 }
 
 .O_OriginOfAgile {
@@ -88,6 +114,7 @@
   background: url('../images/backgroundChoosingDuration\ {.webp') no-repeat;
   background-position: 50% 93%;
   height: 808px;
+  background-size: 100% auto;
 }
 
 .O_MainAboutAgile {
@@ -101,4 +128,11 @@
 
 .O_AboutAgile1 {
   margin-bottom: 2em;
+}
+
+.O_HowItWorks {
+  display: flex;
+  gap: 4em;
+  justify-content: space-between;
+  margin-right: 4em;
 }

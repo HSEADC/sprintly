@@ -1,5 +1,6 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
+/******/ (() => {
+  // webpackBootstrap
+  /******/ 'use strict';
 
-/******/ })()
-;
+  /******/
+})();

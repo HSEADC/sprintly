@@ -1,19 +1,19 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
 
-const webpack = require('webpack')
-const path = require('path')
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
   },
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
-    clean: true
+    clean: true,
   },
   module: {
     rules: [
@@ -24,9 +24,9 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties']
-          }
-        }
+            plugins: ['@babel/plugin-proposal-class-properties'],
+          },
+        },
       },
       {
         test: /\.js?$/,
@@ -34,13 +34,13 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            cacheDirectory: true
-          }
-        }
+            cacheDirectory: true,
+          },
+        },
       },
       {
         test: /\.scss$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.css$/i,
@@ -52,111 +52,111 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: [['postcss-preset-env']]
-              }
-            }
-          }
-        ]
+                plugins: [['postcss-preset-env']],
+              },
+            },
+          },
+        ],
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader'
+        loader: 'html-loader',
       },
       {
         resourceQuery: /raw/,
-        type: 'asset/source'
+        type: 'asset/source',
       },
       {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[name][hash][ext]'
-        }
+          filename: 'images/[name][hash][ext]',
+        },
       },
       {
         test: /\.svg/,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[hash][ext][query]'
-        }
+          filename: 'images/[hash][ext][query]',
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[name][ext]'
-        }
-      }
-    ]
+          filename: 'fonts/[name][ext]',
+        },
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
-      chunkFilename: '[id].[contenthash].css'
+      chunkFilename: '[id].[contenthash].css',
     }),
 
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
     }),
 
     // Изучение AGILE
     new HtmlWebpackPlugin({
       template: './src/about-agile.html',
-      filename: './about-agile.html'
+      filename: './about-agile.html',
     }),
 
     // Cтатьи
     new HtmlWebpackPlugin({
       template: './src/articles/articles.html',
-      filename: './articles/articles.html'
+      filename: './articles/articles.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/article_1.html',
-      filename: './articles/article_1.html'
+      filename: './articles/article_1.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/article_2.html',
-      filename: './articles/article_2.html'
+      filename: './articles/article_2.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/article_3.html',
-      filename: './articles/article_3.html'
+      filename: './articles/article_3.html',
     }),
 
     // Платформа
     new HtmlWebpackPlugin({
       template: './src/platform.html',
-      filename: './platform.html'
+      filename: './platform.html',
     }),
 
     // Веб-плакат
     new HtmlWebpackPlugin({
       template: './src/motivation.html',
-      filename: './motivation.html'
+      filename: './motivation.html',
     }),
 
     // Книги
     new HtmlWebpackPlugin({
       template: './src/books/books.html',
-      filename: './books/books.html'
+      filename: './books/books.html',
     }),
 
     //Заглушка
     new HtmlWebpackPlugin({
       template: './src/present.html',
-      filename: './present.html'
+      filename: './present.html',
     }),
 
     // Стайлгайд
     new HtmlWebpackPlugin({
       template: './src/style_guide.html',
-      filename: './style_guide.html'
-    })
+      filename: './style_guide.html',
+    }),
 
     // Article
     // new HtmlWebpackPlugin({
@@ -175,6 +175,6 @@ module.exports = {
     // ])
   ],
   optimization: {
-    minimizer: [new CssMinimizerPlugin()]
-  }
-}
+    minimizer: [new CssMinimizerPlugin()],
+  },
+};

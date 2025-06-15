@@ -14,13 +14,15 @@
 
 .M_MainFooterNavAndNet {
   display: flex;
-  gap: 45em;
+  gap: 41em;
   margin-bottom: 10em;
+  justify-content: space-between;
 }
 
 .M_LogoAndNet {
   display: flex;
-  gap: 40em;
+  gap: 33em;
+  justify-content: space-between;
 }
 
 .M_CardAboutFirstSprint {
@@ -188,4 +190,13 @@
   gap: 2em;
   flex-wrap: wrap;
   justify-content: flex-end;
+}
+
+.M_Graphic {
+  margin-left: 7em;
+  display: flex;
+}
+
+.M_GraphicOfDays {
+  position: relative;
 }

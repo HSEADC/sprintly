@@ -124,6 +124,9 @@
 .Q_CircleBig3 {
   position: absolute;
   top: 21%;
+  height: auto;
+  max-width: 1600px;
+  width: 100%;
 }
 
 .Q_SquareMedium22 {
@@ -131,4 +134,19 @@
   height: 327px;
   border: 1px solid white;
   padding: 1em;
+}
+
+.Q_CircleSmallMargin {
+  margin: 2.6em 0em 0em 16.7em;
+}
+
+.Q_SquareMedium22Margin {
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+.Q_LineWithCircles {
+  max-width: 1700px;
+  width: 100%;
+  margin-bottom: 2em;
 }

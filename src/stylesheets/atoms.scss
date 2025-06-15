@@ -150,14 +150,14 @@
 }
 
 .A_TypographyHeaderrrr2 {
-  margin-top: 11em;
   max-width: 1005px;
   margin-left: 3em;
+  margin-bottom: 4em;
 }
 
 .A_TypographyHeader2Margin {
-  margin-left: 1em;
-  margin-bottom: 1.5em;
+  margin-left: 2em;
+  margin-bottom: 2em;
 }
 
 .A_TypographyHeaderr5 {
@@ -185,7 +185,7 @@
 }
 
 .A_TypographyHeader2Margin2 {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.6em;
   margin-left: 1em;
 }
 
@@ -200,4 +200,101 @@
 .A_TypographyHeader22 {
   font-family: 'Helvetica Bold';
   font-size: 60px;
+}
+
+.A_TypographyHeaderrMargin2 {
+  margin-bottom: 0.6em;
+}
+
+.O_NumberedList {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.M_CirclesItems {
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+  padding: 0 3.6em;
+}
+
+.A_TypographyHeaderAgileRealization {
+  margin-bottom: 5em;
+}
+
+.A_TypographyListItemLast {
+  margin-bottom: 4em;
+}
+
+.A_HowItWorksImage {
+  height: 100%;
+}
+
+.A_GoalsAndWishes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8em;
+  gap: 10em;
+}
+
+.A_GoalsAndWishesParagraph {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12em 0 4em;
+  gap: 10em;
+}
+
+.A_TypographyNoMargin {
+  margin:0
+}
+
+.A_TypographyMargin {
+  margin-left:5em
+}
+
+.A_TypographyMarginGraphic {
+  margin: 0;
+  margin-left: 2.5em;
+}
+
+.A_BreakdownParagraph {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  margin-top: 7em;
+  margin-bottom: 9em;
+}
+
+.A_linesGraphicOfDay {
+  position: absolute;
+  top: 0;
+}
+
+.A_Typography4Margin {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  margin-left: 6em;
+}
+
+.A_Typography4Margin2 {
+  margin-left: 6em;
+}
+
+.A_TableCalendar {
+  margin-left: 9.3em;
+  margin-bottom: 5em;
+}
+
+.A_Typography2Margin {
+  margin-left: 2.5em;
+}
+
+.A_Typographymargin4 {
+  margin-left: 6em;
+}
+
+.A_Typography2MarginBot {
+  margin-bottom: 2em;
 }
