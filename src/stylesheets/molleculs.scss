@@ -200,3 +200,32 @@
 .M_GraphicOfDays {
   position: relative;
 }
+
+.M_CircleAndText {
+  display: flex;
+  gap: 230px;
+  margin-left: 4em;
+  margin-bottom: 0.5em;
+}
+
+.M_Steps {
+  display: flex;
+  gap: 2em;
+}
+
+.M_FindArticleAndSteps {
+  display: flex;
+  gap: 9em;
+  align-items: flex-end;
+  margin-bottom: 5em;
+}
+
+.M_BlocksOfArticles {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap;
+  margin-left: 4em;
+  margin-bottom: 4em;
+}
