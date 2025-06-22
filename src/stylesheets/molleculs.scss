@@ -137,7 +137,7 @@
 .M_LogoAndCircle {
   display: flex;
   justify-content: space-between;
-  margin: 2em 4em;
+  padding: 2em 4em;
 }
 
 .M_GraphicsAgileLife2 {
@@ -228,4 +228,34 @@
   flex-wrap: wrap;
   margin-left: 4em;
   margin-bottom: 4em;
+}
+
+.M_CardHeaderArticle {
+  background: url('../images/RectangleHowToFeel.webp') center/1429px 660px no-repeat;
+  background-position: 50% 120%;
+  height: 660px;
+  background-size: 92% 98%;
+  margin-bottom: 3em;
+}
+
+.M_TableSubHeaders {
+  border: 1px solid white;
+  padding: 3em 2em 1em 2em;
+  width: 617px;
+  margin-left: 3.5em;
+}
+
+.M_TableAndText {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4em;
+  margin-bottom: 6em;
+}
+
+.M_CardHeaderArticle1 {
+  background: url('../images/Q_ImagesPlanning3.webp') center/1429px 660px no-repeat;
+  background-position: 50% 120%;
+  height: 427px;
+  background-size: 100% 98%;
+  margin-bottom: 3em;
 }

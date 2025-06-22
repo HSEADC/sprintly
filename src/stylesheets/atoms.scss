@@ -298,3 +298,50 @@
 .A_Typography2MarginBot {
   margin-bottom: 2em;
 }
+
+.A_Typography22Header2 {
+  font-size: 45px;
+  max-width: 107px;
+  filter: blur(1px);
+  font-weight: 900;
+  font-family: 'Helvetica Regular';
+  margin-left: 2.8em;   
+  padding-top: 1.4em;
+  margin-bottom: 7em;
+}
+
+.A_TypographyHeader2Article1 {
+  margin-bottom: 0.6em;
+  margin-left: 2em;
+  max-width: 975px;
+  font-size: 60px;
+  font-family: 'Helvetica Bold';
+  filter: blur(1px);
+  letter-spacing: -3.5px;
+}
+
+.A_SubheaderAndCircle {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5em;
+}
+
+.A_RealPlanning {
+  display: flex;
+  align-items: start;
+  justify-content: space-between; 
+  padding: 0em 3em 7em 5.3em; 
+}
+
+.A_TypographyHeader2Art1 {
+    margin-bottom: 0.6em;
+    max-width: 1017px;
+    font-size: 60px;
+    font-family: 'Helvetica Bold';
+    filter: blur(1px);
+    letter-spacing: -3.5px;
+    margin: 0 auto;
+    padding-top: 1.7em;
+    margin-bottom: 3em;
+}

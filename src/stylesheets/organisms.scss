@@ -60,6 +60,13 @@
   z-index: 2;
 }
 
+.O_ArticleHowToFeel {
+  background: url('../images/backgroundHowToFeel.webp') center no-repeat;
+  background-size: 100% auto;
+  height: 2100px;
+  margin-bottom: 5em;
+}
+
 .O_MainFooter {
   padding: 4em 2em;
 }
@@ -157,4 +164,9 @@
   gap: 4em;
   justify-content: space-between;
   margin-right: 4em;
+}
+
+.O_RealPlanningBg {
+  background: url('../images/Ellipse\ 16.png') center no-repeat;
+  background-size: 100% 98%;
 }

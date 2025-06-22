@@ -167,3 +167,59 @@
 .Q_MarginArticles {
   margin-bottom: 5em;
 }
+
+
+.Q_Header3Article1 {
+  font-size: 45px;
+  filter: blur(0.7px);
+  font-weight: 900;
+  font-family: 'Helvetica Regular';
+  margin-bottom: 0.5em;
+  line-height: 74%;
+  letter-spacing: -3.5px;
+  margin-right: 2em;
+}
+
+.Q_Header4Article1 {
+  font-size: 30px;
+  filter: blur(0.3px);
+  font-weight: 900;
+  font-family: 'Helvetica Regular';
+  margin-bottom: 4em;
+  line-height: 101%;
+  width: 488px;
+  letter-spacing: -1px;
+}
+
+.Q_Header5Article1 {
+  font-size: 20px;
+  filter: blur(0.2px);
+  font-weight: 100;
+  font-family: 'Helvetica Regular';
+  line-height: 101%;
+  width: 453px;
+  letter-spacing: -1px;
+}
+
+.Q_Header4Article1Width {
+  width: 685px;
+}
+
+.Q_Header4Article1Margin {
+  margin-bottom: 2em;
+}
+
+.Q_TextMarginLeft {
+  margin-left: -1em;
+}
+
+.Q_Header4Article1Mleft {
+  margin-left: -1.5em;
+}
+
+.Q_TextArt1HowToFeel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
