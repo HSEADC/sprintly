@@ -238,6 +238,17 @@
   margin-bottom: 3em;
 }
 
+.M_CardHeaderArticle2 {
+  background: url('../images/sprintly.gif') center/1429px 660px no-repeat;
+  background-position: 50% 120%;
+  height: 495px;
+  background-size: 100% 99%;
+  margin-bottom: 3em;
+  display: flex;
+  gap: 2em;
+  padding-top: 2.5em;
+}
+
 .M_TableSubHeaders {
   border: 1px solid white;
   padding: 3em 2em 1em 2em;
@@ -259,3 +270,4 @@
   background-size: 100% 98%;
   margin-bottom: 3em;
 }
+
