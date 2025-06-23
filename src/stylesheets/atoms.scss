@@ -307,7 +307,7 @@
   font-family: 'Helvetica Regular';
   margin-left: 2.8em;   
   padding-top: 1.4em;
-  margin-bottom: 7em;
+  margin-bottom: 3em;
 }
 
 .A_TypographyHeader2Article1 {
@@ -365,4 +365,31 @@
 .A_Description5Books {
   margin-top: 2em;
   margin-left: 32em;
+}
+
+.A_Typography2Books {
+    font-size: 45px;
+    max-width: 313px;
+    filter: blur(1px);
+    font-weight: 900;
+    font-family: 'Helvetica Regular';
+    margin-left: 1.4em;
+    padding-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.A_Typography2BooksMargin {
+  max-width: 440px;
+  padding-top: 3.7em;
+}
+
+.A_Typography2BooksMargin2 {
+  max-width: 542px;
+  margin: 0 0 2em 9em;
+}
+
+.A_Typography2Books2Margin2 {
+  max-width: 675px;
+  margin: 0 0 2em 9em;
+  padding-top: 0;
 }

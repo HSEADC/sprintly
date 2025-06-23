@@ -182,3 +182,39 @@
   background: url('../images/Ellipse\ 16.png') center no-repeat;
   background-size: 100% 98%;
 }
+
+
+.O_WhyDicipline {
+  position: relative;
+  margin-bottom: 5em;
+  overflow: hidden;
+}
+
+.O_WhyDicipline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../images/sprintly\ 1.webp') center no-repeat;
+  height: 854px;
+  background-size: 100% auto;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.O_WhyDicipline > * {
+  position: relative;
+  z-index: 2;
+}
+
+.O_Paragraphs5Books {
+  background: url('../images/crug.webp') center no-repeat;
+  background-size: 100% 98%;
+}
+
+.O_DiciplineBg {
+  background: url('../images/bgdicipline.webp') center no-repeat;
+  background-size: 100% 174%;
+}

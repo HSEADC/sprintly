@@ -257,3 +257,71 @@
   font-size: 30px;
   margin-left: -1em;
 }
+
+.Q_SportAndText {
+  display: flex;
+  gap: 0.5em;
+}
+
+.Q_historyAndImg {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3.5em;
+  gap:10em;
+}
+
+.Q_ImgSport {
+  height: 256px;
+  width: 544px;
+  padding-left: 3em;
+}
+
+.Q_historyAndImg {
+  padding-top: 2em;
+}
+
+.Q_Header5Book {
+  padding-left: 9em;
+  font-size: 20px;
+  filter: blur(0.2px);
+  font-weight: 100;
+  font-family: 'Helvetica Regular';
+  line-height: 101%;
+  letter-spacing: -1px;
+}
+
+.Q_Header5BookMargin {
+  margin-bottom: 2em;
+}
+
+.Q_LineGorisontal2 {
+  border: 1px solid white;
+  width: 814px;
+  margin-left: 11em;  
+  margin-bottom: 3em;
+}
+
+.Q_TextHabits {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.Q_SquareHabits {
+  border: 1px solid white;
+  padding: 2em 2em 2em 3em;
+  margin-bottom: 5em;
+}
+
+.Q_Header5BookMargin2 {
+  padding-left: 0;
+  padding-top: 5em;
+}
+
+.Q_H4Dicipline {
+  font-weight: 900;
+  font-family: 'Helvetica Regular';
+  font-size: 30px;
+  margin-left: 15em;
+  margin-bottom: 2em;
+}
