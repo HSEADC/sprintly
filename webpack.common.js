@@ -128,6 +128,11 @@ module.exports = {
       filename: './articles/article_3.html',
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/articles/article_4.html',
+      filename: './articles/article_4.html',
+    }),
+
     // Платформа
     new HtmlWebpackPlugin({
       template: './src/platform.html',

@@ -15,6 +15,7 @@
   position: absolute;
   top: 71%;
   left: 5%;
+  font-family: 'Helvetica Thin';
 }
 
 .A_TypographyParagraph {
@@ -192,9 +193,21 @@
 .A_TypographyParagraph2 {
   font-family: 'Helvetica Thin';
   font-size: 15px;
-  margin-bottom: 4em;
-  width: 198px;
   position: absolute;
+}
+
+.A_TypographyParagraph222 {
+  font-family: 'Helvetica Thin';
+  font-size: 15px;
+  position: absolute;
+  width: 239px;
+}
+
+.A_TypographyParagraph22 {
+  font-family: 'Helvetica Thin';
+  font-size: 15px;
+  position: absolute;
+  bottom: -5em;
 }
 
 .A_TypographyHeader22 {
@@ -313,7 +326,7 @@
 .A_TypographyHeader2Article1 {
   margin-bottom: 0.6em;
   margin-left: 2em;
-  max-width: 975px;
+  max-width: 1017px;
   font-size: 60px;
   font-family: 'Helvetica Bold';
   filter: blur(1px);
@@ -336,7 +349,7 @@
 
 .A_TypographyHeader2Art1 {
     margin-bottom: 0.6em;
-    max-width: 1017px;
+    max-width: 1059px;
     font-size: 60px;
     font-family: 'Helvetica Bold';
     filter: blur(1px);

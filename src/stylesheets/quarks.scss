@@ -8,6 +8,11 @@
   height: 36px;
 }
 
+.Q_LinkAgile {
+  position: relative; /* или absolute, если нужно */
+  z-index: 1;
+}
+
 .Q_Arrow2 {
   position: absolute;
   right: 2.5em;
@@ -31,6 +36,7 @@
 
 .Q_RestangleBig {
   position: absolute;
+  margin-left: 5em;
 }
 
 .Q_CircleMedium {
@@ -324,4 +330,8 @@
   font-size: 30px;
   margin-left: 15em;
   margin-bottom: 2em;
+}
+
+.Q_Header5Bookpadd {
+  padding-bottom: 7em;
 }

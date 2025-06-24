@@ -1,11 +1,13 @@
 .O_MainAbout {
   background: url('../images/background_7.webp') center/1310px 450px no-repeat;
   background-position: 50% 83%;
+  background-size: 100% auto;
 }
 
 .O_MainAboutPlatform2 {
   background: url('../images/фон_-2-_1_.webp') 614px 1300px no-repeat;
   background-position: 50% 100%;
+  background-size: 100% auto;
 }
 
 .O_MainFooter {
@@ -92,6 +94,7 @@
 }
 
 .O_MainHeader {
+  z-index: 1;
   display: flex;
   gap: 2em;
   justify-content: flex-end;
